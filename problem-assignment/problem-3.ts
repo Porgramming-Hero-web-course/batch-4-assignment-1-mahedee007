@@ -7,7 +7,7 @@
         const lowercaseSentence = sentence.toLowerCase();
         const lowercaseWord = word.toLowerCase();
         const words = lowercaseSentence.split(' ');
-        return words.filter(w => w === lowercaseWord).length;
+        return words.filter(word => word === lowercaseWord).length;
 
     }
     
